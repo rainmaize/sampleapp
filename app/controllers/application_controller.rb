@@ -1,7 +1,10 @@
-class ApplicationController < ActionController::Base
-    protect_from_forgery with: :exception
+# frozen_string_literal: true
 
-    def hello
-      render html: "hello, world!"
-    end
+# :nodoc:
+class ApplicationController < ActionController::Base
+  protect_from_forgery with: :exception
+
+  def hello
+    render html: 'hello, world!'
+  end
 end

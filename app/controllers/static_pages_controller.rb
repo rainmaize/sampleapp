@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
+# :nodoc:
 class StaticPagesController < ApplicationController
-    def home
-    end
-    def help
-    end
-    def about
-    end
-  end
+  def home; end
+
+  def help; end
+
+  def about; end
+end
